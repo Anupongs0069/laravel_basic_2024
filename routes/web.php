@@ -126,7 +126,7 @@ Route::get('/product-type-list', [ProductController::class, 'productTypeList']);
 Route::get('/list-by-product-type/{productTypeId}', [ProductController::class, 'listByProductType']);
 
 // livewire
-// Route::get('/product-type/list', [ProductTypeController::class, 'index']);
+Route::get('/product-type/list', [ProductTypeController::class, 'index']);
 
 
 
